@@ -1,6 +1,7 @@
 div .outer_jsoneditor {
     float: left;
     width: 100%;
+    height: 300px;
 }
 
 .form-row {
