@@ -43,8 +43,8 @@ JSON_EDITOR_CSS = 'whatever-your-want.css'
 
 Just look to the http://cdnjs.com/libraries/jsoneditor and select the preferred one, like:
 ```python
-JSON_EDITOR_JS = 'https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.2.1/jsoneditor.js'
-JSON_EDITOR_CSS = 'https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.2.1/jsoneditor.css'
+JSON_EDITOR_JS = 'https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/8.6.4/jsoneditor.js'
+JSON_EDITOR_CSS = 'https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/8.6.4/jsoneditor.css'
 ```
 
 ### Custom JSONEditor initialization
@@ -113,7 +113,7 @@ Right now there are the following fixed implementations:
 * `jsoneditor.fields.django_jsonfield.JSONField` replaces a `JSONField` from (different) packages https://github.com/bradjasper/django-jsonfield and https://launchpad.net/django-jsonfield
 * `jsoneditor.fields.postgres_jsonfield.JSONField` replaces `django.contrib.postgres.fields.JSONField` (**NOTE** this field type appears only from django v.1.9)
 * `jsoneditor.fields.django_extensions_jsonfield.JSONField` replaces `django_extensions.db.fields.json.JSONField`
-
+* `jsoneditor.fields.jsonfield` is now added for people using https://github.com/rpkilby/jsonfield
 
 Use the fixed implementation instead of the original one like
 
